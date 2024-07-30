@@ -49,6 +49,7 @@ main {
   letter-spacing: 0.1px;
   text-align: center;
   opacity: 0.5;
+  max-width: 694px;
 }
 
 .cardsCont,
@@ -101,4 +102,17 @@ main {
 
 .card-4 {
   border-top: 4px solid #549ef2;
+}
+
+@media screen and (min-width: 1440px) {
+  .heading-1,
+  .heading-2 {
+    font-size: 36px;
+  }
+
+  .cardsCont {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
